@@ -1,5 +1,3 @@
-# touchealth-refactor-wx
-势成科技重构微信公众号
 
 
 项目技术栈：Vue+Webpack+Axios+vueRouter（Vue全家桶）
