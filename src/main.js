@@ -11,7 +11,10 @@ import '@/utils/rem'
 
 //引入自定义指令
 import '@/directive/'
-
+//引入mint-ui
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+Vue.use(MintUI)
 
 
 //引入better-scroll 

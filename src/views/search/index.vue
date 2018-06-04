@@ -15,37 +15,13 @@
         </div>
       </router-link>
     </div>
-    <div class="swiperimg">
-      <mt-swipe :auto="0">
-        <mt-swipe-item><img src="https://res.shiguangkey.com/file/201804/28/20180428192020063086227.png!m_banner_a" alt=""></mt-swipe-item>
-        <mt-swipe-item><img src="https://res.shiguangkey.com/file/201804/24/20180424153552821566623.jpg!m_banner_a" alt=""></mt-swipe-item>
-      </mt-swipe>
-    </div>
-    <div class="newlist">
-      <ul>
-        <li>最新课程</li>
-        <li>热门课程</li>
-        <li>限时特惠</li>
-      </ul>
-    </div>
-    <div class="courselist">
-      <ul>
-        <li>IT</li>
-        <li>考研</li>
-        <li>音乐乐器</li>
-        <li>职业考证</li>
-        <li>语言</li>
-        <li>市场营销</li>
-        <li>股权与融资</li>
-        <li>塾链商学院</li>
-      </ul>
-    </div>
-    <div class="professionallist">
-      <ul>
-        <li></li>
-        
-      </ul>
-    </div>
+    <mt-swipe :auto="0">
+      <mt-swipe-item>1</mt-swipe-item>
+      <mt-swipe-item>2</mt-swipe-item>
+      <mt-swipe-item>3</mt-swipe-item>
+      <mt-swipe-item>4</mt-swipe-item>
+      <mt-swipe-item>5</mt-swipe-item>
+    </mt-swipe>
   </div>
 </template>
 <script>
@@ -100,15 +76,14 @@ export default {
       height: .72rem;
       margin: 0 auto;
       background: #fff;
-      color: #999;
       i,span {
         display: inline-block;
-        font: .33rem/.72rem "";
+        margin-top: .2rem;
       }
     }
   }
-  .swiperimg {
-    height: 2.1rem;
+  .swiper-container {
+    height: 100%;
   }
 }
 </style>

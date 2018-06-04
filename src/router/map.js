@@ -3,6 +3,8 @@ const HelloWorld = r => require.ensure([], () => r(require("@/components/HelloWo
 const date = r => require.ensure([], () => r(require("@/components/date")))
 //首页
 const home = r => require.ensure([], () => r(require("@/views/home")), "home")
+//搜索页
+const search = r => require.ensure([], () => r(require("@/views/search")), "search")
 /* 
  * 用户模块 start 
  */
@@ -90,6 +92,11 @@ const routes = [{
         path: '/home',
         component: home,
         meta: { title: '首页' }
+    },
+    {
+        path: '/search',
+        component: search,
+        meta: { title: '搜索页' }
     },
     {
         path: "/user",
