@@ -229,3 +229,12 @@ input:focus::-webkit-input-placeholder {
     font-size: 15px;
     font-size: 0.3rem;
 }
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both
+}

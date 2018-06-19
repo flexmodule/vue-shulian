@@ -9,7 +9,7 @@ export default {
   name: 'touchealth'
 }
 </script>
-<style src="../static/assets/iconfont.css"></style>
+<style src="@/static/assets/iconfont.css"></style>
 <style lang="scss">
 // 引入样式重置
 @import './static/scss/config/_reset.scss';
