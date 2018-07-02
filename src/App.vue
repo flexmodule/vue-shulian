@@ -1,12 +1,23 @@
 <template>
   <div id="shulian">
-    <router-view/>
+    <div class="main-container">
+      <transition 
+        name="fade" 
+        mode="out-in">
+        <router-view/>
+      </transition>
+    </div>
+    <footer-menu/>
   </div>
 </template>
 
 <script>
+import footerMenu from "./components/footerMenu";
 export default {
-  name: 'touchealth'
+  name: 'shulian',
+  components: {
+    footerMenu
+  },
 }
 </script>
 <style src="@/static/assets/iconfont.css"></style>
